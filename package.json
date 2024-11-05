@@ -8,13 +8,21 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-qr-scanner": "^1.0.0-alpha.11",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  
+  
+  "homepage": "https://logesh26.github.io/qr_scanner" ,
+  
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
